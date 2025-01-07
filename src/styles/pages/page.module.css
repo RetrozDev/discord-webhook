@@ -1,0 +1,29 @@
+.page {
+	height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+	padding: 50px ;
+	display: flex;
+	flex-direction: column;
+
+	h1 {
+		text-transform: uppercase;
+		font-weight: 800;
+		text-align: center;
+	}
+
+  p {
+    text-align: center;
+    a {
+      text-decoration: underline;
+    }
+  }
+
+	main {
+		margin: 1rem 0;
+		border: 1px solid var(--border);
+		border-radius: var(--border-radius);
+		flex-grow: 1;
+		background-color: rgba(0, 2, 20, 0.34);
+		backdrop-filter: blur(20px);
+
+	}
+}
